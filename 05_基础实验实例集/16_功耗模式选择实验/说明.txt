@@ -1,0 +1,10 @@
+CC253x系列片上系统基础实验 — 功耗模式选择（由睡眠定时器或外部中断唤醒）
+
+"PowerModes(WakeUp By ST Or EINT)_Ex"文件夹中的"PowerModes(WakeUp By ST Or EINT)_Ex.eww"文件为本实验的工作空间文件，可在IAR集成开发环境（7.51A及以上版本）中打开。
+
+"PowerModes(WakeUp By ST Or EINT)_Ex"文件夹中的"source"文件夹中包含了本实验的源代码文件：
+
+  PowerModes(WakeUp By ST Or EINT)_Ex.c           本实验的主源代码文件(包含main函数)  
+
+  LCD.c                                           LCD驱动文件
+  LCD.h                                           LCD驱动文件的头文件

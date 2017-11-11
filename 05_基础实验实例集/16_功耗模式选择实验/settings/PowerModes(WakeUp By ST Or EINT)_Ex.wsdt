@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>PowerModes(WakeUp By ST Or EINT)_Ex/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>149</Column0><Column1>27</Column1><Column2>27</Column2><Column3>2000118243</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+      <TerminalIO/>
+    <Disassembly><MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow><InstrProfShow>0</InstrProfShow></Disassembly></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-27354-18231</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>PowerModes(WakeUp By ST Or EINT)_Ex</ExpandedNode><ExpandedNode>PowerModes(WakeUp By ST Or EINT)_Ex/LCD_Mzlh04</ExpandedNode><ExpandedNode>PowerModes(WakeUp By ST Or EINT)_Ex/Output</ExpandedNode><ExpandedNode>PowerModes(WakeUp By ST Or EINT)_Ex/PowerModes(WakeUp By ST Or EINT)_Ex.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-4874-18652</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-2260-18701</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\PowerModes(WakeUp By ST Or EINT)_Ex.c</Filename><XPos>0</XPos><YPos>297</YPos><SelStart>7452</SelStart><SelEnd>7452</SelEnd></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-011c2b98><key>iaridepm.enu1</key></Toolbar-011c2b98></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes><Toolbar-05af9c78><key>debuggergui.enu1</key></Toolbar-05af9c78></Sizes></Row3></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>539</Bottom><Right>223</Right><x>-2</x><y>-2</y><xscreen>225</xscreen><yscreen>236</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>288509</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>661369</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>234</Bottom><Right>1442</Right><x>-2</x><y>-2</y><xscreen>1444</xscreen><yscreen>236</yscreen><sizeHorzCX>1002778</sizeHorzCX><sizeHorzCY>288509</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>288509</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

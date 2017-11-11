@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>GenericApp/CoordinatorEB</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>211</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1034</ColumnWidth1><ColumnWidth2>275</ColumnWidth2><ColumnWidth3>68</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1379</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-8204-240</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>GenericApp</ExpandedNode><ExpandedNode>GenericApp/App</ExpandedNode><ExpandedNode>GenericApp/HAL</ExpandedNode><ExpandedNode>GenericApp/HAL/Common</ExpandedNode><ExpandedNode>GenericApp/HAL/Target</ExpandedNode><ExpandedNode>GenericApp/HAL/Target/CC2530EB</ExpandedNode><ExpandedNode>GenericApp/HAL/Target/CC2530EB/Drivers</ExpandedNode><ExpandedNode>GenericApp/MAC</ExpandedNode><ExpandedNode>GenericApp/OSAL</ExpandedNode><ExpandedNode>GenericApp/Tools</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-7159-260</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-24991-2665</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_board.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>10</SelStart><SelEnd>23</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\COMPONENTS\hal\target\CC2530EB\hal_board_cfg.h</Filename><XPos>0</XPos><YPos>195</YPos><SelStart>9283</SelStart><SelEnd>9283</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\GenericApp.c</Filename><XPos>0</XPos><YPos>396</YPos><SelStart>807</SelStart><SelEnd>807</SelEnd></Tab><ActiveTab>2</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\OSAL_GenericApp.c</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>927</SelStart><SelEnd>927</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Components\hal\target\CC2530EB\hal_key.c</Filename><XPos>0</XPos><YPos>324</YPos><SelStart>13916</SelStart><SelEnd>13916</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\ZMain\TI2530DB\ZMain.c</Filename><XPos>0</XPos><YPos>48</YPos><SelStart>1465</SelStart><SelEnd>1465</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Components\hal\common\hal_assert.c</Filename><XPos>0</XPos><YPos>289</YPos><SelStart>9211</SelStart><SelEnd>9211</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Components\hal\target\CC2530EB\hal_uart.c</Filename><XPos>0</XPos><YPos>174</YPos><SelStart>6213</SelStart><SelEnd>6228</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\Tools\CC2530DB\f8w2530.xcl</Filename><XPos>0</XPos><YPos>183</YPos><SelStart>5551</SelStart><SelEnd>5551</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\COMPONENTS\HAL\INCLUDE\hal_led.h</Filename><XPos>0</XPos><YPos>53</YPos><SelStart>3142</SelStart><SelEnd>3161</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\COMPONENTS\osal\include\OSAL.h</Filename><XPos>0</XPos><YPos>198</YPos><SelStart>5775</SelStart><SelEnd>5786</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01351f70><key>iaridepm.enu1</key></Toolbar-01351f70></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>562</Bottom><Right>304</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>138889</sizeHorzCX><sizeHorzCY>247831</sizeHorzCY><sizeVertCX>212500</sizeVertCX><sizeVertCY>698885</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1442</Right><x>-2</x><y>-2</y><xscreen>1444</xscreen><yscreen>200</yscreen><sizeHorzCX>1002778</sizeHorzCX><sizeHorzCY>247831</sizeHorzCY><sizeVertCX>138889</sizeVertCX><sizeVertCY>247831</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

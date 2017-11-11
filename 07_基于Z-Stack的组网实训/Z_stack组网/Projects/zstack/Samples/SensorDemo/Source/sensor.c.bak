@@ -1,0 +1,99 @@
+/**************************************************************************************************
+  Filename:       sensor.c  */
+
+#include "ZComDef.h"
+#include "sapi.h"
+#include "hal_led.h"
+#include "hal_uart.h"
+#include "sensor.h"
+ 
+#define HAL_ADC_REF_125V    0x00    /* Internal 1.25V Reference */
+#define HAL_ADC_DEC_064     0x00    /* Decimate by 64 : 8-bit resolution */
+#define HAL_ADC_DEC_128     0x10    /* Decimate by 128 : 10-bit resolution */
+#define HAL_ADC_DEC_512     0x30    /* Decimate by 512 : 14-bit resolution */
+#define HAL_ADC_CHN_VDD3    0x0f    /* Input channel: VDD/3 */
+#define HAL_ADC_CHN_TEMP    0x0e    /* Temperature sensor */ 
+/******************************************************************************
+ * GLOBAL VARIABLES
+ */
+void hal_LightSensor_Init(void);
+static uint16 readVoltage(void);
+
+
+void hal_LightSensor_Init(void)
+{
+	P0SEL  |= (1 << (0));	
+        P0DIR  |= (1 << (0));	
+}
+/******************************************************************************
+ * @fn          readVoltage
+ *
+ * @brief       read voltage from ADC
+ *
+ * @param       none
+ *              
+ * @return      voltage
+ *******/
+static uint16 readVoltage(void)
+{
+
+  uint32 value;
+   hal_LightSensor_Init(); 
+  // Clear ADC interrupt flag 
+  ADCIF = 0;
+
+  ADCCON3 = (0x80 | HAL_ADC_DEC_128 | 0x00);
+  //采用基准电压avdd5:3.3V
+  //  Wait for the conversion to finish 
+  while ( !ADCIF );
+
+  // Get the result
+  value = ADCL;
+  value |= ((uint16) ADCH) << 8;
+
+  // value now contains measurement of 3.3V
+  // 0 indicates 0V and 32767 indicates 3.3V
+  // voltage = (value*3.3)/32767 volts
+  // we will multiply by this by 10 to allow units of 0.01 volts
+  value = value >> 6;   // divide first by 2^6
+  value = (uint16)(value * 330);
+  value = value >> 9;   // ...and later by 2^9...to prevent overflow during multiplication
+
+  return (uint16)value;
+ 
+}
+
+/******************************************************************************
+ * @fn          readsensor
+ *
+ * @brief       read readsensor
+ *
+ * @param       sensorid
+ *              
+ * @return      sensor value
+ *******/
+readsensor(uint8 sensorid, uint16 val1, uint16 val2)
+{
+       val1=0;
+       val2=0;
+       if(sensorid == 0x01)
+       {    //温湿度
+            return;    
+        
+       } 
+       if(sensorid == 0x11)
+       {    //人体 p0.1 
+            P0SEL  &= ~(1 << (1));	
+            P0DIR  |= (1 << (1));	
+            P2INP  &= ~(1 << (5));
+            P0INP  &= ~(1 << (1));
+             // 03人体传感器，测i/o高低
+            val1=  ~P0_1 ;
+            return;    
+       } 
+       
+       
+        
+    
+    
+}

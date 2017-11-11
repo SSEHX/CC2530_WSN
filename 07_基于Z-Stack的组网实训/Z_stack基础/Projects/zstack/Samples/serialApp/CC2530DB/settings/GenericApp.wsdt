@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>GenericApp/EndDeviceEB</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>247</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1034</ColumnWidth1><ColumnWidth2>275</ColumnWidth2><ColumnWidth3>68</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1379</ColumnWidth1></Debug-Log><Find-in-Files><ColumnWidth0>496</ColumnWidth0><ColumnWidth1>70</ColumnWidth1><ColumnWidth2>850</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-8204-240</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>GenericApp</ExpandedNode><ExpandedNode>GenericApp/App</ExpandedNode><ExpandedNode>GenericApp/HAL</ExpandedNode><ExpandedNode>GenericApp/HAL/Common</ExpandedNode><ExpandedNode>GenericApp/HAL/Target</ExpandedNode><ExpandedNode>GenericApp/HAL/Target/CC2530EB</ExpandedNode><ExpandedNode>GenericApp/HAL/Target/CC2530EB/Drivers</ExpandedNode><ExpandedNode>GenericApp/HAL/Target/CC2530EB/Drivers/hal_uart.c</ExpandedNode><ExpandedNode>GenericApp/MAC</ExpandedNode><ExpandedNode>GenericApp/OSAL</ExpandedNode><ExpandedNode>GenericApp/Tools</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-7159-260</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-24991-2665</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-19411-28271</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_board.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>10</SelStart><SelEnd>23</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\COMPONENTS\hal\target\CC2530EB\hal_board_cfg.h</Filename><XPos>0</XPos><YPos>201</YPos><SelStart>9805</SelStart><SelEnd>9809</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\GenericApp.c</Filename><XPos>0</XPos><YPos>298</YPos><SelStart>8622</SelStart><SelEnd>8647</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\OSAL_GenericApp.c</Filename><XPos>0</XPos><YPos>60</YPos><SelStart>2144</SelStart><SelEnd>2144</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Components\hal\target\CC2530EB\hal_key.c</Filename><XPos>0</XPos><YPos>324</YPos><SelStart>13916</SelStart><SelEnd>13916</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\ZMain\TI2530DB\ZMain.c</Filename><XPos>0</XPos><YPos>48</YPos><SelStart>1469</SelStart><SelEnd>1469</SelEnd></Tab><ActiveTab>5</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Components\hal\target\CC2530EB\hal_uart.c</Filename><XPos>0</XPos><YPos>131</YPos><SelStart>5186</SelStart><SelEnd>5201</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\COMPONENTS\HAL\INCLUDE\hal_led.h</Filename><XPos>0</XPos><YPos>53</YPos><SelStart>2825</SelStart><SelEnd>2825</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\COMPONENTS\osal\include\OSAL.h</Filename><XPos>0</XPos><YPos>198</YPos><SelStart>5849</SelStart><SelEnd>5860</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Source\GenericApp.h</Filename><XPos>0</XPos><YPos>60</YPos><SelStart>1111</SelStart><SelEnd>1111</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Components\mt\MT_UART.h</Filename><XPos>0</XPos><YPos>114</YPos><SelStart>3837</SelStart><SelEnd>3837</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_uart.h</Filename><XPos>0</XPos><YPos>174</YPos><SelStart>6706</SelStart><SelEnd>6718</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\COMPONENTS\osal\include\OSAL_Memory.h</Filename><XPos>0</XPos><YPos>66</YPos><SelStart>1318</SelStart><SelEnd>1318</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Components\hal\common\hal_assert.c</Filename><XPos>0</XPos><YPos>246</YPos><SelStart>8113</SelStart><SelEnd>8113</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-013721b8><key>iaridepm.enu1</key></Toolbar-013721b8></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>562</Bottom><Right>340</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>138889</sizeHorzCX><sizeHorzCY>247831</sizeHorzCY><sizeVertCX>237500</sizeVertCX><sizeVertCY>698885</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1442</Right><x>-2</x><y>-2</y><xscreen>1444</xscreen><yscreen>200</yscreen><sizeHorzCX>1002778</sizeHorzCX><sizeHorzCY>247831</sizeHorzCY><sizeVertCX>138889</sizeVertCX><sizeVertCY>247831</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

@@ -1,0 +1,38 @@
+[CodeCoverage]
+Enabled=_ 0
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-752729460
+[InstructionProfiling]
+Enabled=_ 0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Count=0
+[ChipconEmu]
+Stop timers on halt=1
+Leave target running=1
+[Aliases]
+A0=_ "F:\ZB2530_SHT10_DEMO\Components\mac\low_level\srf04\mac_autopend.c" ""
+A1=_ "F:\ZB2530_SHT10_DEMO\Projects\zstack\ZMain\TI2530DB\ZMain.c" ""
+Count=2
+SuppressDialog=0

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1488985678</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\flashreadwrite.d51</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$TOOLKIT_DIR$\config\lnk51ew_cc2530.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flashreadwrite.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Flash_Ex.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\Flash_Ex.pbi</file>
+      <file>$PROJ_DIR$\source\Flash_Ex.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\flashreadwrite.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3 9 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\flashreadwrite.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\Flash_Ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 4 0 7 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5 4 0 7 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

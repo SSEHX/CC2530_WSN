@@ -1,0 +1,55 @@
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=341701736
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\sensor.c}.77.9@1" 1 0 0 0 "" 0 ""
+Count=1
+[ChipconEmu]
+Stop timers on halt=1
+Leave target running=1
+[Aliases]
+A0=_ "F:\201207培训\无线串口实验\CC2530_lib\common\hal_clock.c" ""
+A1=_ "F:\201207培训\无线串口实验\CC2530_lib\common\hal_rf.c" ""
+A2=_ "F:\zigbee实训\基于BasciRF的实训\3 AD型传感器采集实验\CC2530_lib\board\hal_board.c" ""
+A3=_ "F:\zigbee实训\基于BasciRF的实训\3 AD型传感器采集实验\CC2530_lib\board\hal_led.c" ""
+A4=_ "F:\zigbee实训\基于BasciRF的实训\3 AD型传感器采集实验\CC2530_lib\common\hal_mcu.c" ""
+A5=_ "F:\zigbee实训\基于BasciRF的实训\3 AD型传感器采集实验\CC2530_lib\common\hal_rf.c" ""
+Count=6
+SuppressDialog=0

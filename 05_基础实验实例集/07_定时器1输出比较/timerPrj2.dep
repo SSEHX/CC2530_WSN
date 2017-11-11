@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4182975999</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\timer2.r51</file>
+      <file>$PROJ_DIR$\Debug\Exe\timerPrj2.d51</file>
+      <file>$PROJ_DIR$\Debug\Obj\timerPrj2.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk51ew_cc2530.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\source\timer2.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\T2Prj.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer2.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 1 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\timerPrj2.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4 0 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\timerPrj2.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\timer2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>&#x5149;&#x7167;&#x4F20;&#x611F;&#x5668;/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>241</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>712</ColumnWidth1><ColumnWidth2>190</ColumnWidth2><ColumnWidth3>47</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>950</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1948-20436</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&#x5149;&#x7167;&#x4F20;&#x611F;&#x5668;</ExpandedNode><ExpandedNode>&#x5149;&#x7167;&#x4F20;&#x611F;&#x5668;/main.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd3><Tabs><Tab><Identity>TabID-30311-23005</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-21947-23162</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>167</SelStart2><SelEnd2>167</SelEnd2></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>E:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\8051\inc\clib\string.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>25</YPos2><SelStart2>171</SelStart2><SelEnd2>171</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\8051\inc\clib\sysmac.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>74</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\8051\inc\ioCC2530.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0513E2B0><key>iaridepm.enu1</key></Toolbar-0513E2B0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>223</Bottom><Right>315</Right><x>-2</x><y>-2</y><xscreen>317</xscreen><yscreen>271</yscreen><sizeHorzCX>314172</sizeHorzCX><sizeHorzCY>581545</sizeHorzCY><sizeVertCX>314172</sizeVertCX><sizeVertCY>482833</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1011</Right><x>-2</x><y>-2</y><xscreen>1013</xscreen><yscreen>200</yscreen><sizeHorzCX>1003964</sizeHorzCX><sizeHorzCY>429185</sizeHorzCY><sizeVertCX>198216</sizeVertCX><sizeVertCY>429185</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
